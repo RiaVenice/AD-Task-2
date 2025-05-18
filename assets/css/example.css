@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+
+}
+
+.site-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+}
+
+.site-header h1 {
+    font-size: 2.5em;
+    margin-left: 10px;
+}
+
+.pokeball {
+    width: 98px;
+    height: 98px;
+}
+
+.collection-section {
+    background-color: #ffeaea;
+    padding: 100px;
+    text-align: center;
+}
+
+.collection-section h2 {
+    margin-top: 10px;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.pokemon-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.poke-card {
+    text-align: center;
+    flex: 1 1 200px;
+    padding: 15px;
+    background-color: #ff9c8b;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.poke-card:hover {
+    transform: scale(1.05);
+}
+
+
+.poke-card a {
+    color: black;           
+    text-decoration: none;   
+}
+
+.poke-card a:hover {
+    color: #e60073;          
+    text-decoration: none; 
+}
+
+
+.poke-card img {
+    width: 120px;             
+    height: auto;             
+    image-rendering: pixelated; 
+    display: block;
+    margin: 0 auto 10px auto;  
+}
+
+
+.poke-card p {
+    font-size: 1.2em;
+    margin-top: 8px;
+    
+}
+
+footer {
+    text-align: center;
+    color: #888;
+    font-size: 10px;     
+    padding: 5px;        
+    margin-top: 10px;    
+
+}
