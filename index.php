@@ -1,5 +1,5 @@
 <?php
-include('header.component.php');
+include('components/header.component.php');
 
 
 $pokemonList = [
@@ -23,4 +23,4 @@ $pokemonList = [
     </div>
 </div>
 
-<?php include('footer.component.php'); ?>
+<?php include('components/footer.component.php'); ?>
