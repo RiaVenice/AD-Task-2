@@ -1,0 +1,19 @@
+{
+    "name": "RiaVenice/php-project",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "RiaVenice\\PhpProject\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AD-Task-2",
+            "email": "riatcruz.v1@gmail.com"
+        }
+    ],
+    "scripts": {
+        "start": "php -S localhost:8000 router.php"
+    },
+    "require": {}
+}
