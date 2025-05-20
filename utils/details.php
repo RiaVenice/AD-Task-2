@@ -1,5 +1,5 @@
 <?php
-include('header.php');
+include('header.component.php');
 
 // Pokémon data with image + details (dictionary)
 $pokemonDetails = [
@@ -46,5 +46,5 @@ if (isset($pokemonDetails[$pokemon])) {
     echo "<p style='text-align:center;'>Pokémon not found.</p>";
 }
 
-include('footer.php');
+include('footer.component.php');
 ?>
