@@ -3,10 +3,10 @@ include('components/header.component.php');
 
 
 $pokemonList = [
-    ["name" => "Pikachu", "img" => "img/23.png"],
-    ["name" => "Jigglypuff", "img" => "img/22.png"],
-    ["name" => "Bulbasaur", "img" => "img/24.png"],
-    ["name" => "Vaporeon", "img" => "img/25.png"]
+    ["name" => "Pikachu", "img" => "assets/img/23.png"],
+    ["name" => "Jigglypuff", "img" => "assets/img/22.png"],
+    ["name" => "Bulbasaur", "img" => "assets/img/24.png"],
+    ["name" => "Vaporeon", "img" => "assets/img/25.png"]
 ];
 ?>
 
