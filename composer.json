@@ -1,5 +1,5 @@
 {
-    "name": "RiaVenice/php-project",
+    "name": "ria/php-project",
     "type": "project",
     "autoload": {
         "psr-4": {
