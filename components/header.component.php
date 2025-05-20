@@ -6,7 +6,7 @@
 </head>
 <body>
     <header class="site-header">
-        <img src="./img/pokeball.png" alt="Pokéball" class="pokeball">
+        <img src="assets/img/pokeball.png" alt="Pokéball" class="pokeball">
          <h1>Pokémon</h1>
     </header>
    
