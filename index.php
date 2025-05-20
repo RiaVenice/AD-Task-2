@@ -17,7 +17,7 @@ $pokemonList = [
         <?php foreach ($pokemonList as $poke): ?>
             <div class="poke-card">
                 <img src="<?= $poke['img'] ?>" alt="<?= $poke['name'] ?>">
-                <p><a href="details.php?pokemon=<?= urlencode($poke['name']) ?>"><?= $poke['name'] ?></a></p>
+                <p><a href="Details.utils.php?pokemon=<?= urlencode($poke['name']) ?>"><?= $poke['name'] ?></a></p>
             </div>
         <?php endforeach; ?>
     </div>
