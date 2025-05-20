@@ -1,27 +1,27 @@
 <?php
-include('header.component.php');
+include('components/header.component.php');
 
 // Pokémon data with image + details (dictionary)
 $pokemonDetails = [
     "Pikachu" => [
         "Type" => "Electric",
         "Level" => 15,
-        "Image" => "img/23.png"
+        "Image" => "assets/img/23.png"
     ],
     "Jigglypuff" => [
         "Type" => "Fairy",
         "Level" => 12,
-        "Image" => "img/22.png"
+        "Image" => "assets/img/22.png"
     ],
     "Bulbasaur" => [
         "Type" => "Grass/Poison",
         "Level" => 10,
-        "Image" => "img/24.png"
+        "Image" => "assets/img/24.png"
     ],
     "Vaporeon" => [
         "Type" => "Water",
         "Level" => 17,
-        "Image" => "img/25.png"
+        "Image" => "assets/img/25.png"
     ]
 ];
 
@@ -46,5 +46,5 @@ if (isset($pokemonDetails[$pokemon])) {
     echo "<p style='text-align:center;'>Pokémon not found.</p>";
 }
 
-include('footer.component.php');
+include('components/footer.component.php');
 ?>
